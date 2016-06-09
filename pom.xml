@@ -21,6 +21,7 @@
 
     <modelVersion>4.0.0</modelVersion>
 
+    <groupId>com.kagurabi.services</groupId>
     <artifactId>kagura-assembly</artifactId>
     <version>1.10-SNAPSHOT</version>
     <packaging>pom</packaging>

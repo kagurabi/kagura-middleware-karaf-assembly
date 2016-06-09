@@ -28,6 +28,12 @@
     <name>kagura-assembly</name>
     <description>This project creates a Karaf custom distribution that you can customize to fit your needs.</description>
 
+    <parent>
+        <groupId>com.kagurabi</groupId>
+        <artifactId>Kagura-bom</artifactId>
+        <version>1.10-SNAPSHOT</version>
+    </parent>
+
     <dependencies>
         <dependency>
             <groupId>com.kagurabi.services</groupId>
@@ -45,18 +51,6 @@
             <type>tar.gz</type>
         </dependency>
     </dependencies>
-
-    <dependencyManagement>
-        <dependencies>
-            <dependency>
-                <groupId>com.kagurabi</groupId>
-                <artifactId>Kagura-bom</artifactId>
-                <version>1.10-SNAPSHOT</version>
-                <type>pom</type>
-                <scope>import</scope>
-            </dependency>
-        </dependencies>
-    </dependencyManagement>
 
     <build>
         <resources>

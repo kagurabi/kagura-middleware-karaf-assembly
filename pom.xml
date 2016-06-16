@@ -22,7 +22,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.kagurabi.services</groupId>
-    <artifactId>kagura-assembly</artifactId>
+    <artifactId>Kagura-assembly</artifactId>
     <version>1.10-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>kagura-assembly</name>
@@ -48,7 +48,7 @@
     <dependencies>
         <dependency>
             <groupId>com.kagurabi.services</groupId>
-            <artifactId>kagura-features</artifactId>
+            <artifactId>Kagura-features</artifactId>
             <type>pom</type>
         </dependency>
         <dependency>

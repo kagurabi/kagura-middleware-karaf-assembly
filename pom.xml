@@ -29,7 +29,7 @@
     <description>This project creates a Karaf custom distribution that you can customize to fit your needs.</description>
 
     <parent>
-        <groupId>com.kagurabi</groupId>
+        <groupId>com.kagurabi.services</groupId>
         <artifactId>Kagura-karaf-bom</artifactId>
         <version>1.10-SNAPSHOT</version>
     </parent>
